@@ -52,29 +52,34 @@ body, html {
 .distance-container {
     max-width: 1000px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .distance {
     display: table;
     clear: both;
+    margin-bottom: 20px;
 }
 
 .list-picture {
     max-width: 50%;
     max-height: 50%;
-    float: right;
+    float: left;
     margin: 5px;
 }
 
-.distance:nth-child(odd) .list-picture {
-    float: left;
+
+.distance:nth-child(even) .list-picture {
+    float: right;
 }
 
-h2 {
+.distance-container h2 {
     font-size: 32px;
 }
 
-p {
+.distance-container p {
     text-align: left;
+}
+
+.distance-container p::first-letter{
+    font-size: 2em;
 }
