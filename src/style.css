@@ -2,6 +2,7 @@ body, html {
     padding: 0;
     margin: 0;
     height: 100vh;
+    width: 100vw;
 }
 
 .iframe-container {
@@ -15,5 +16,9 @@ body, html {
 
 .weather-iframe {
     width: 100%;
+}
 
+.list-picture {
+    max-width: 100%;
+    height: 50vh;
 }
