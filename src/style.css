@@ -52,29 +52,44 @@ body, html {
 .distance-container {
     max-width: 1000px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .distance {
     display: table;
     clear: both;
+    margin-bottom: 20px;
 }
 
 .list-picture {
     max-width: 50%;
     max-height: 50%;
-    float: right;
-    margin: 5px;
-}
-
-.distance:nth-child(odd) .list-picture {
     float: left;
+    margin: 1.2em;
 }
 
-h2 {
+
+.distance:nth-child(even) .list-picture {
+    float: right;
+}
+
+.distance-container h2 {
     font-size: 32px;
 }
 
-p {
+.distance-container p {
     text-align: left;
 }
+
+.distance-container p::first-letter{
+    font-size: 2em;
+}
+
+.map-container {
+    margin: 10px 50px;
+}
+
+.map-container h2 {
+    font-size: 32px;
+    padding: 20px 50px;
+}
+
