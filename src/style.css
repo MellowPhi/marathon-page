@@ -60,15 +60,19 @@ body, html {
     margin-bottom: 20px;
 }
 
-.list-picture {
+.distance-image {
     max-width: 50%;
     max-height: 50%;
     float: left;
     margin: 1.2em;
 }
 
+.distance-image:hover {
+    filter: saturate(200%);
+}
 
-.distance:nth-child(even) .list-picture {
+
+.distance:nth-child(even) .distance-image {
     float: right;
 }
 
