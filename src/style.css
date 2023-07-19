@@ -3,9 +3,15 @@ body, html {
     margin: 0;
     height: 100vh;
     width: 100vw;
+    font-family: "Roboto", "Helvetica Neue", "Arial", "sans-serif";
 }
 
 .iframe-container {
+    width: 100%;
+    position: relative;
+}
+
+.iframe-widget {
     width: 100%;
 }
 
@@ -14,11 +20,61 @@ body, html {
     height: 80vh;
 }
 
-.weather-iframe {
-    width: 100%;
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: inherit;
+    height: 100%;
+}
+
+.tag-line {
+    position: relative;
+    font-size: 73px;
+    color: rgb(255,255,255);
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.join-button {
+    font-size: 24px;
+    padding: 5px 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    position: relative;
+    bottom: -280px;
+}
+
+.distance-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.distance {
+    display: table;
+    clear: both;
 }
 
 .list-picture {
-    max-width: 100%;
-    height: 50vh;
+    max-width: 50%;
+    max-height: 50%;
+    float: right;
+    margin: 5px;
+}
+
+.distance:nth-child(odd) .list-picture {
+    float: left;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+p {
+    text-align: left;
 }

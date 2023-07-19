@@ -2,37 +2,45 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Hello, World!</title>
+    <title>Running Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <div class="iframe-container">
-    <iframe title="real-motivation-video"
-            class="youtube-iframe"
+    <iframe class="youtube-iframe"
+            title="real-motivation-video"
             src="https://www.youtube.com/embed/ZXsQAXx_ao0?controls=0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen="true"  ></iframe>
+    <div class="video-overlay">
+        <h1 class="tag-line" title="tag-line">Run for Life</h1>
+        <button class="join-button">Join us!</button>
+    </div>
 </div>
 
 <div class="iframe-container">
-    <iframe title="weather-widget"
-            class="weather-iframe"
-            src="https://www.meteoblue.com/en/weather/widget/daily/texas_mexico_3981722?geoloc=fixed&days=4&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=coloured&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windspeed=1&windgust=0&winddirection=0&winddirection=1&uv=0&humidity=0&precipitation=0&precipitationprobability=0&spot=0&pressure=0&layout=light"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox"
-            ></iframe>
+    <iframe class="iframe-widget" title="Weather Widget"
+            src="https://www.meteoblue.com/en/weather/widget/daily/london_united-kingdom_2643743?geoloc=fixed&days=7&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=coloured&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windspeed=1&windgust=0&winddirection=0&winddirection=1&uv=0&humidity=0&precipitation=0&precipitationprobability=0&spot=0&pressure=0&layout=light"
+            style="border: none"
+    <!--            width= "378" height="420"-->
+    >
+    </iframe>
 </div>
-
 
 <div class="distance-container">
     <h2>Running Distances</h2>
     <ul>
         <li class="distance"><h2>1km: Fun Run</h2>
-            <img class="list-picture" title="fun-run" alt="Running for fun in Jackson Hole" src="https://source.unsplash.com/fzHmP6z8OQ4"><br>
-        <p>
-            This short and sweet 1km run is perfect for beginners or those who just want to have a bit of fun.
-            Whether you're looking to kickstart your fitness journey or simply enjoy a leisurely jog in the great
-            outdoors, this distance is a great way to get started.
-        </p>
+            <img class="list-picture" title="fun-run" alt="Running for fun in Jackson Hole" src="https://source.unsplash.com/QVD3Xht9txA"><br>
+            <p>
+                This short and sweet 1km run is perfect for beginners or those who just want to have a bit of fun.
+                Whether you're looking to kickstart your fitness journey or simply enjoy a leisurely jog in the great
+                outdoors, this distance is a great way to get started.
+            </p>
         </li>
 
         <li class="distance"><h2>5km Run</h2>
@@ -46,7 +54,7 @@
         <li class="distance"><h2>10km Run</h2>
             <img class="list-picture" title="5km-run" alt="10km run over the mountains" src="https://source.unsplash.com/GYr9A2CPMhY"><br>
             <p>
-                he 10km run is a great intermediate distance that offers a challenge to runners who have already tackled shorter races.
+                The 10km run is a great intermediate distance that offers a challenge to runners who have already tackled shorter races.
                 With a mix of speed and endurance, this distance requires a bit more training and dedication,
                 but the sense of accomplishment you'll feel at the finish line will be well worth it.
             </p>
@@ -73,6 +81,7 @@
     </ul>
 
 </div>
+
 
 </body>
 </html>
