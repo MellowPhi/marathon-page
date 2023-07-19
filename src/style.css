@@ -64,7 +64,7 @@ body, html {
     max-width: 50%;
     max-height: 50%;
     float: left;
-    margin: 5px;
+    margin: 1.2em;
 }
 
 
@@ -83,3 +83,12 @@ body, html {
 .distance-container p::first-letter{
     font-size: 2em;
 }
+
+.map-container {
+    margin: 10px 50px;
+}
+
+.map-container h2 {
+    font-size: 32px;
+}
+
