@@ -1,0 +1,19 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.iframe-container {
+    width: 100%;
+}
+
+.youtube-iframe {
+    width: 100%;
+    height: 80vh;
+}
+
+.weather-iframe {
+    width: 100%;
+
+}
