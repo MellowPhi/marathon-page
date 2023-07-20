@@ -21,31 +21,29 @@ body, html {
 }
 
 .video-overlay {
-    background-color: rgb(0,0,0.5);
-    text-align: centr;
+    background-color: transparent;
+    text-align: center;
+    width: 100%;
 }
 
 .tag-line {
-    position: relative;
-    font-size: 73px;
+    font-size: 10vw;
     color: Black;
     text-align: center;
-
 }
 
 .join-button {
-    text-decoration: none;
-    font-size: 30px;
+    font-size: 5vw;
     padding: 5px 10px;
+    margin: 20px;
     border: 2px solid black;
     color: black;
     background-color: transparent;
 }
 
 .join-button:hover {
-    color: red;
-    transform: scale(1.2);
-    margin: auto;
+    color: green;
+    transform: scale(1.2); 
     transition: transform 0.2s ease-in-out;
 }
 

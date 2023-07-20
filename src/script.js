@@ -1,7 +1,7 @@
 // Function to scroll smoothly to the end of the page when the button is clicked
 function scrollToPageEnd() {
     //const distanceContainer = document.querySelector('.distance-container');
-    const distanceContainer = document.getElementById('bottom');
+    const distanceContainer = document.getElementById('map-container');
     if (distanceContainer) {
       distanceContainer.scrollIntoView({ behavior: 'smooth' });
     }

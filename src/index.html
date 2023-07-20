@@ -9,7 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1 class="tag-line" title="tag-line">Run for Life</h1>
+    <div class="video-overlay">
+        <h1 class="tag-line" title="tag-line">Run for Life</h1>
+        <button id="join-button" class="join-button">Join us!</button>
+    </div>
+
 <div class="iframe-container">
     <iframe id="youtube-iframe"
             class="youtube-iframe"
@@ -18,9 +22,7 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen="true"  >
     </iframe>
-    <div class="video-overlay">
-        <button id="join-button" class="join-button">Join us!</button>
-    </div>
+
 </div>
 
 
@@ -74,7 +76,7 @@
     </ul>
 </div>
 
-<div class="map-container">
+<div id="map-container" class="map-container">
     <h2>See you at Big Ben!</h2>
     <iframe class="iframe-widget"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7043.577400491269!2d-0.13420429928809996!3d51.50249669146704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604c38c8cd1d9%3A0xb78f2474b9a45aa9!2sBig%20Ben!5e0!3m2!1sen!2sau!4v1689807910149!5m2!1sen!2sau"
@@ -87,8 +89,5 @@
 
 <script src="https://www.youtube.com/iframe_api"></script>
 <script type="text/javascript" src="script.js"></script>
-<div id="bottom">
-    THIS IS THE END OF THE PAGE
-</div>
 </body>
 </html>
